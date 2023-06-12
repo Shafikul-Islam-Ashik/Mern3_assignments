@@ -54,7 +54,7 @@ if (donorsByBloodGroup.length > 0) {
     ]);
   } else {
     console.log("\n Available donors:");
-    console.table("No available donor found");
+    console.log("No available donor found");
   } // ends available donors functionality
 
   /**********************
@@ -95,7 +95,7 @@ if (donorsByBloodGroup.length > 0) {
     ]);
   } else {
     console.log("\n Upcoming available donors:");
-    console.table("No upcoming available donors found");
+    console.log("No upcoming available donors found");
   } // ends upcoming donors functionality
 
   /**********************
