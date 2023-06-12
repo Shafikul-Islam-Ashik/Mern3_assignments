@@ -19,9 +19,9 @@ const donorsByBloodGroup = bloodDonors.filter((donor) => {
 const donorByPhone = bloodDonors.find((donor) => {
   return donor.cell === searchedInput;
 });
-// console.log(donorsByPhone);
 
-// init, doors array based on criteria
+
+// init, donors array based on criteria
 const availableDonors = [];
 const upcomingDonors = [];
 const s_by_PhoneDonors = [];
