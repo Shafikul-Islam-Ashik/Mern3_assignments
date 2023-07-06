@@ -73,9 +73,9 @@ let classForActive = "";
 accordions.map((item) => {
   // first accordion will be opened
   if(item.id === 1){
-		classForActive = "show";
+    classForActive = "show";
   } else {
-		classForActive = "";
+    classForActive = "";
   }
   accordionList += `
     <div class="card card-default">
