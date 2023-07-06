@@ -94,7 +94,6 @@ const accordions = [
       description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Phasellus blanorem ipsum dolor sit amet, consecte.`,
       accordinLink: "collapseOne",
-      classForActive: "show",
     },
   },
   {
@@ -105,7 +104,6 @@ const accordions = [
       description: `Donec tellus massa, tristique sit amet condimentum vel,
       facilisis quis sapien.`,
       accordinLink: "collapseTwo",
-      classForActive: "",
     },
   },
   {
@@ -116,7 +114,6 @@ const accordions = [
       description: `Donec tellus massa, tristique sit amet condimentum vel,
       facilisis quis sapien.`,
       accordinLink: "collapseThree",
-      classForActive: "",
     },
   },
 ];
