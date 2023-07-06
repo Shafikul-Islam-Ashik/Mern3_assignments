@@ -67,9 +67,16 @@ rightFeaturesWrapper.innerHTML = rightFeaturesList; //ends right features
 const accordionWrapper = document.querySelector(".accordion-wrapper");
 // init val
 let accordionList = "";
+let classForActive = "";
 
 // maping
 accordions.map((item) => {
+  // first accordion will be opened
+  if(item.id === 1){
+		classForActive = "show";
+  } else {
+		classForActive = "";
+  }
   accordionList += `
     <div class="card card-default">
     <div class="card-header">
@@ -85,7 +92,7 @@ accordions.map((item) => {
         </a>
       </h4>
     </div>
-    <div id="${item.content.accordinLink}" class="collapse ${item.content.classForActive}">
+    <div id="${item.content.accordinLink}" class="collapse ${classForActive}">
       <div class="card-body text-2">
         <p>
         ${item.content.description}
